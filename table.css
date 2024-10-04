@@ -1,0 +1,41 @@
+body{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-color: #666;
+}
+
+.one{
+    color: white;
+    background-color: green;
+    padding: 15px;
+    margin: 15px;
+    height: 50px;
+    font-weight: 400;
+    border-radius: 60px;
+
+}
+
+.two{
+    font-weight: 300;
+    padding: 15px;
+    margin: 15px;
+}
+.three{
+    padding: 15px;
+    font-style:#666
+}
+th,td{
+  
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+table{
+    border-collapse:collapse;      
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;                                                                                                                                                              ;
+}
