@@ -1,0 +1,19 @@
+button{
+    background-color: green;
+    color: black;
+    border-radius: 12px;
+    height: 60px;
+    width: 90px;
+    font-weight: 800;
+    padding-top: 30px;
+    
+
+}
+.one{
+    font-weight: 950px;
+    font-size: 200 px;
+}
+button:hover{
+    background-color: black;
+    color: green;
+}

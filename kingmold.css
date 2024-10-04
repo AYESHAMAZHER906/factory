@@ -1,0 +1,65 @@
+body{
+    font-family: montserrat, Arial, calibri, 'Times New Roman', Times, serif;
+}
+main{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1{
+    text-align: center;
+    font-family: montserrat, calibri, arial;
+    font-size: 42px;
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    border-radius: 12px;
+    margin-left: 18px;
+}
+.navbar a:hover{
+    background-color: hsl(0, 2%, 10%);
+}
+.navbar ul{
+    list-style: none;
+    background-color: hsl(0, 1%, 22%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+}
+.one{
+   
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style:italic;
+  font-size: bold;
+
+    font-size: large;
+}
+.two{
+    font-weight: 700;
+    font-style: italic;
+    font-size: large;
+    font-family:"Montserrat", sans-serif;
+}
+.three
+{
+    font-size:normal;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+}
