@@ -1,0 +1,92 @@
+body{
+    background-color: gray;
+    justify-content: center;
+    
+   
+}
+.nav{
+    background-color:white;
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-family: "poppins";
+    
+}
+.button1{
+    height: 40px;
+    align-items: center;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+}
+.four{
+    font-weight: bolder;
+    color: black;
+    justify-content: left;
+    margin: 30px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration-line: none;
+    color: gray;
+    padding: 10px;
+}
+.one{
+    justify-content: center;
+    
+}
+.two{
+   float: right;
+
+}
+.picture{
+    background-image:url(cat.jpg);
+    background-size: cover;
+
+    height: 500px;
+    width: 500px;
+
+}
+.div1{
+background-color: wheat;
+height: 500px;
+width: 800px;
+
+}
+.body{
+    display: flex;
+}
+.button2{
+    margin: 15px;
+    font-size: smaller;
+    padding: 12px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.three{
+    font-size: smaller;
+    padding-top: 50px;
+}
+.text1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+p{
+    margin: 20px;
+   font-family: "arial";
+}
+.main{
+    border-radius: 50px;
+    height: 800px;
+    width: 900px;
+    
+    justify-content: center;
+    align-items: center;
+   
+}

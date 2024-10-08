@@ -1,0 +1,55 @@
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 12px;
+    margin-left: 18px;
+    font-family: "poppins";
+    font-size: medium;
+}
+.navbar ul{
+    list-style: none;
+    background-color:whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar li{
+    float: left;
+}
+p{
+    font-family: "poppins";
+    font-size: large;
+    margin: 15px;
+    font-weight: 900;
+}
+.one{
+   align-items: center;
+
+}
+.two{
+   justify-content: right;
+   list-style: none;
+   background-color:whitesmoke;
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+   
+}
+button{
+    justify-content: right;
+    list-style: none;
+    background-color:whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.three{
+    font-family: arial;
+    font-size: smaller;
+}
