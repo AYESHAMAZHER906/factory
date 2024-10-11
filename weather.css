@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(28, 3, 61);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: beige;
+}
+div{
+    color: aliceblue;
+    background-color: rgb(14, 8, 100);
+}
+.box{
+     padding: 5px;
+     margin: 5px;
+     width: 300px;
+     height: 28px
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.two{
+    padding-top: 20px;
+}
+h1{
+    font-size: 38px;
+    font-family:"poppins";
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+}
