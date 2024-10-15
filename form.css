@@ -3,20 +3,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-}
-.two{
-    padding-top: 20px;
+    height: 95vh;
 }
 h1{
-    font-size: 38px;
-    font-family:"poppins";
-    align-items: center;
+    font-size: 26px;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   justify-content: center;
 }
 .main{
     display: flex;
     justify-content: center;
+    align-items: left;
     background-color: white;
-    width: 300px;
-    border-radius: 10px;
+    width: 250px;
+    border-radius: 8px;
+    height: 420px;
+}
+.two{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    width: 200px;
+    color: white;
+    background-color: rgb(9, 9, 114);
+    border-radius: 8px;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(16, 16, 67);
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0;
+}
+:placeholder-shown{
+    font-size: smaller;
+    width: 190px;
+    height: 20px;
+    border-radius: 2px;
+    border-color: gray;
 }
