@@ -1,0 +1,18 @@
+main{
+    height: 30vh;
+    width: 30vh;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 40%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
