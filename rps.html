@@ -13,48 +13,76 @@
     <button onclick="playGame('rock')">rock</button>
     <button onclick="playGame('paper')">paper</button>
     <button onclick="playGame('scissors')">scissors</button>
+    <button onclick="resetScore() clearStorage()">ResetScore</button>
 
 </body>
 <script>
+    let score=JSON.parse(localStorage.getItem('score')) ||
+    {
+        wins: 0,
+        losses: 0,
+        draws: 0
+    }
+    function resetScore()
+    {
+        score.wins=0,
+        score.losses=0,
+        score.draws=0 
+    }
+    function clearStorage()
+    {
+      localstorage.removeItem('score')
+    }
+
+
     function playGame(playerMove)
     {
         const computerMove=pickcomputerMove();
         let result='';
 
-    if(playerMove==="rock"){
+    if(playerMove==="rock")
+    {
       if (computerMove==="rock")
-      {result="tie";}
+    {result="tie";}
       if (computerMove==="paper")
     {resut="lose";}
       if (computerMove==="scissors")
-    {result="win";}}
+    {result="win";}
+    }
 
-    else if(playerMove==="paper"){
+    else if(playerMove==="paper")
+    {
       if (computerMove==="rock")
     {result="win";}
       if (computerMove==="paper")
     {resut="tie";}
       if (computerMove==="scissors")
-    {result="lose";}}
+    {result="lose";}
+    }
 
-    else if(playerMove==="scissors"){
+    else if(playerMove==="scissors")
+    {
       if (computerMove==="rock")
     {result="lose";}
       if (computerMove==="paper")
     {resut="win";}
       if (computerMove==="scissors")
-    {result="tie";}}
+    {result="tie";}
+    }
 
-    alert(`You chose Rock. Computer chose ${computerMove}. Result: ${result}`)
-   }
-   function pickcomputerMove() {
+    alert(`You choose ${playerMove}. Computer choose ${computerMove}. Result: ${result}`)
+    }
+   function pickcomputerMove() 
+    {
         const randomNumber = Math.random();
         let computerMove = '';
 
-        if (randomNumber >= 0 && randomNumber < 1 / 3) {
+        if (randomNumber >= 0 && randomNumber < 1 / 3)
+         {
             computerMove='rock'
         }
-        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3)
+         {
             computerMove='paper'
         }
         else {
@@ -64,6 +92,6 @@
         return computerMove;
     }
 
-    
-
 </script>
+
+</html>
